@@ -9,9 +9,11 @@ body { font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; wid
 
 .statement-section .container-fluid .image-div .overlay { background-color: rgba(155, 155, 155, 0.8); opacity: 0.3; position: absolute; right: 0; top: 54px; width: 100%; height: 100%; }
 
-.statement-section .container-fluid .image-div .image-text { position: absolute; margin: auto; text-align: center; top: 250px; width: 100%; }
+.statement-section .container-fluid .image-div .image-text { position: absolute; margin: auto; text-align: center; top: 310px; width: 100%; }
 
 .statement-section .container-fluid .image-div .image-text h1 { font-size: 3em; }
+
+@media (max-width: 450px) { .statement-section .container-fluid .image-div .image-text h1 { margin-bottom: 50px; } }
 
 /* --------------------- Mission ----------------------*/
 .mission-section, .consulting-section { padding-left: 70px; padding-right: 70px; padding-top: 120px; padding-bottom: 150px; }
