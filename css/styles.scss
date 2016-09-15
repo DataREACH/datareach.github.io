@@ -274,6 +274,30 @@ body {
       }
     }
 
+    .col-nsai {
+      height: 900px;
+      @media(max-width: 991px) {
+        height: 850px;
+        margin-bottom: 10px;
+      }
+      @media(max-width: 891px) {
+        height: 720px;
+      }
+      @media(max-width: 791px) {
+        height: 740px;
+      }
+      @media(max-width: 691px) {
+        height: 770px;
+      }
+      @media(max-width: 591px) {
+        height: 800px;
+      }
+      @media(max-width: 491px) {
+        height: 1000px;
+
+      }
+    }
+
   }
 }
 

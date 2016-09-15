@@ -104,6 +104,20 @@ body { font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; wid
 
 @media (max-width: 491px) { .collaborators-section .container .col-extended { height: 670px; } }
 
+.collaborators-section .container .col-nsai { height: 900px; }
+
+@media (max-width: 991px) { .collaborators-section .container .col-nsai { height: 850px; margin-bottom: 10px; } }
+
+@media (max-width: 891px) { .collaborators-section .container .col-nsai { height: 720px; } }
+
+@media (max-width: 791px) { .collaborators-section .container .col-nsai { height: 740px; } }
+
+@media (max-width: 691px) { .collaborators-section .container .col-nsai { height: 770px; } }
+
+@media (max-width: 591px) { .collaborators-section .container .col-nsai { height: 800px; } }
+
+@media (max-width: 491px) { .collaborators-section .container .col-nsai { height: 1000px; } }
+
 .contact-section .entry { margin: auto; height: 100px; width: 500px; }
 
 /* --------------------- Footer ----------------------*/
