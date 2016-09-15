@@ -78,31 +78,31 @@ body { font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; wid
 
 @media (max-width: 491px) { .team-section .container .col-member { height: 570px; } }
 
-.contributors-section .container { color: #777; text-align: center; margin-top: 120px; }
+.collaborators-section .container { color: #777; text-align: center; margin-top: 120px; }
 
-.contributors-section .container h2 { font-size: 32px; line-height: 44px; font-weight: 300; margin-bottom: 44px; }
+.collaborators-section .container h2 { font-size: 32px; line-height: 44px; font-weight: 300; margin-bottom: 44px; }
 
-.contributors-section .container .col-extended { height: 740px; }
+.collaborators-section .container .col-extended { height: 740px; }
 
-.contributors-section .container .col-extended img { height: 200px; }
+.collaborators-section .container .col-extended img { height: 200px; }
 
-.contributors-section .container .col-extended .team-member-name { font-size: 28px; margin-bottom: 10px; }
+.collaborators-section .container .col-extended .team-member-name { font-size: 28px; margin-bottom: 10px; }
 
-.contributors-section .container .col-extended .team-member-title { font-size: 18px; font-weight: 600; margin-bottom: 30px; }
+.collaborators-section .container .col-extended .team-member-title { font-size: 18px; font-weight: 600; margin-bottom: 30px; }
 
-.contributors-section .container .col-extended .team-member-bio { text-align: center; line-height: 24px; font-size: 14px; }
+.collaborators-section .container .col-extended .team-member-bio { text-align: center; line-height: 24px; font-size: 14px; }
 
-@media (max-width: 991px) { .contributors-section .container .col-extended { height: 550px; margin-bottom: 10px; } }
+@media (max-width: 991px) { .collaborators-section .container .col-extended { height: 550px; margin-bottom: 10px; } }
 
-@media (max-width: 891px) { .contributors-section .container .col-extended { height: 600px; } }
+@media (max-width: 891px) { .collaborators-section .container .col-extended { height: 600px; } }
 
-@media (max-width: 791px) { .contributors-section .container .col-extended { height: 610px; } }
+@media (max-width: 791px) { .collaborators-section .container .col-extended { height: 610px; } }
 
-@media (max-width: 691px) { .contributors-section .container .col-extended { height: 630px; } }
+@media (max-width: 691px) { .collaborators-section .container .col-extended { height: 630px; } }
 
-@media (max-width: 591px) { .contributors-section .container .col-extended { height: 650px; } }
+@media (max-width: 591px) { .collaborators-section .container .col-extended { height: 650px; } }
 
-@media (max-width: 491px) { .contributors-section .container .col-extended { height: 670px; } }
+@media (max-width: 491px) { .collaborators-section .container .col-extended { height: 670px; } }
 
 .contact-section .entry { margin: auto; height: 100px; width: 500px; }
 
