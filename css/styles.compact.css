@@ -62,7 +62,7 @@ body { font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; wid
 
 .team-section .container .col-extended .team-member-title { font-size: 18px; font-weight: 600; margin-bottom: 30px; }
 
-.team-section .container .col-extended .team-member-bio { text-align: center; line-height: 24px; font-size: 14px; }
+.team-section .container .col-extended .team-member-bio { text-align: left; line-height: 24px; font-size: 14px; }
 
 .team-section .container .col-vik { margin-bottom: 100px; }
 
@@ -80,19 +80,57 @@ body { font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; wid
 
 @media (max-width: 491px) { .team-section .container .col-member { height: 570px; } }
 
+.facultyAdvisors-section { background-color: #f4f4f4; }
+
+.facultyAdvisors-section .container { background-color: #f4f4f4; color: #777; text-align: center; padding-top: 100px; }
+
+.facultyAdvisors-section .container .row { padding: 0; margin: 0; }
+
+.facultyAdvisors-section .container h2 { font-size: 32px; line-height: 44px; font-weight: 300; margin-bottom: 44px; }
+
+.facultyAdvisors-section .container .col-extended { height: 900px; }
+
+.facultyAdvisors-section .container .col-extended img { height: 200px; }
+
+.facultyAdvisors-section .container .col-extended .team-member-name { font-size: 28px; margin-bottom: 10px; }
+
+.facultyAdvisors-section .container .col-extended .team-member-name :hover { text-decoration: none; color: black; }
+
+.facultyAdvisors-section .container .col-extended .team-member-name a { color: inherit; }
+
+.facultyAdvisors-section .container .col-extended .team-member-title { font-size: 18px; font-weight: 600; margin-bottom: 30px; }
+
+.facultyAdvisors-section .container .col-extended .team-member-bio { text-align: left; line-height: 24px; font-size: 14px; }
+
+@media (max-width: 991px) { .facultyAdvisors-section .container .col-extended { height: 1150px; margin-bottom: 10px; } }
+
+@media (max-width: 891px) { .facultyAdvisors-section .container .col-extended { height: 1150px; } }
+
+@media (max-width: 791px) { .facultyAdvisors-section .container .col-extended { height: 1310px; } }
+
+@media (max-width: 691px) { .facultyAdvisors-section .container .col-extended { height: 1330px; } }
+
+@media (max-width: 591px) { .facultyAdvisors-section .container .col-extended { height: 1350px; } }
+
+@media (max-width: 491px) { .facultyAdvisors-section .container .col-extended { height: 1870px; } }
+
 .collaborators-section .container { color: #777; text-align: center; margin-top: 120px; }
 
 .collaborators-section .container h2 { font-size: 32px; line-height: 44px; font-weight: 300; margin-bottom: 44px; }
 
-.collaborators-section .container .col-extended { height: 740px; }
+.collaborators-section .container .col-extended { height: 1140px; }
 
 .collaborators-section .container .col-extended img { height: 200px; }
 
 .collaborators-section .container .col-extended .team-member-name { font-size: 28px; margin-bottom: 10px; }
 
+.collaborators-section .container .col-extended .team-member-name :hover { text-decoration: none; color: black; }
+
+.collaborators-section .container .col-extended .team-member-name a { color: inherit; }
+
 .collaborators-section .container .col-extended .team-member-title { font-size: 18px; font-weight: 600; margin-bottom: 30px; }
 
-.collaborators-section .container .col-extended .team-member-bio { text-align: center; line-height: 24px; font-size: 14px; }
+.collaborators-section .container .col-extended .team-member-bio { text-align: left; line-height: 24px; font-size: 14px; }
 
 @media (max-width: 991px) { .collaborators-section .container .col-extended { height: 550px; margin-bottom: 10px; } }
 
@@ -106,13 +144,13 @@ body { font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; wid
 
 @media (max-width: 491px) { .collaborators-section .container .col-extended { height: 670px; } }
 
-.collaborators-section .container .col-nsai { height: 900px; }
+.collaborators-section .container .col-nsai { height: 1200px; }
 
-@media (max-width: 991px) { .collaborators-section .container .col-nsai { height: 850px; margin-bottom: 10px; } }
+@media (max-width: 991px) { .collaborators-section .container .col-nsai { height: 750px; margin-bottom: 10px; } }
 
 @media (max-width: 891px) { .collaborators-section .container .col-nsai { height: 720px; } }
 
-@media (max-width: 791px) { .collaborators-section .container .col-nsai { height: 740px; } }
+@media (max-width: 791px) { .collaborators-section .container .col-nsai { height: 770px; } }
 
 @media (max-width: 691px) { .collaborators-section .container .col-nsai { height: 770px; } }
 
