@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo:800|Raleway:100,200,400,700,900");
-body { font-family: 'Raleway', sans-serif; width: 100%; overflow-x: hidden; }
+body { font-family: 'Raleway', sans-serif; overflow-x: hidden !important; width: 100%; }
 
 /* --------------------- Statement ----------------------*/
 .statement-section .container-fluid { padding: 0; }
@@ -17,7 +17,7 @@ body { font-family: 'Raleway', sans-serif; width: 100%; overflow-x: hidden; }
 @media (max-width: 450px) { .statement-section .container-fluid .image-div .image-text h1 { margin-bottom: 50px; } }
 
 /* --------------------- Mission ----------------------*/
-.mission-section, .consulting-section { padding-left: 70px; padding-right: 70px; padding-top: 120px; padding-bottom: 150px; }
+.mission-section, .consulting-section { width: 100%; margin: 0 !important; padding-left: 70px; padding-right: 70px; padding-top: 120px; padding-bottom: 150px; }
 
 .mission-section .container, .consulting-section .container { background-color: white; color: #777; }
 
@@ -143,7 +143,7 @@ body { font-family: 'Raleway', sans-serif; width: 100%; overflow-x: hidden; }
 
 @media (max-width: 591px) { .collaborators-section .container .col-extended { height: 800px; } }
 
-@media (max-width: 491px) { .collaborators-section .container .col-extended { height: 850px; } }
+@media (max-width: 491px) { .collaborators-section .container .col-extended { height: 950px; } }
 
 .collaborators-section .container .col-nsai { height: 1200px; }
 
@@ -170,8 +170,8 @@ body { font-family: 'Raleway', sans-serif; width: 100%; overflow-x: hidden; }
 
 .footer a { color: rgba(0, 0, 0, 0.3); margin-left: 10px; margin-right: 5px; font-weight: 300; }
 
-/* sample */
-.home-section { background-color: #5d7794; height: 100vh; position: relative; width: 100%; font-family: 'Raleway', sans-serif; color: white; font-weight: 100; }
+/* home section */
+.home-section { background-color: #5d7794; height: 700px; position: relative; width: 100%; font-family: 'Raleway', sans-serif; color: white; font-weight: 100; }
 
 .home-section .col-text { padding-right: 3%; }
 
@@ -192,4 +192,4 @@ body { font-family: 'Raleway', sans-serif; width: 100%; overflow-x: hidden; }
 
 @media (max-width: 767px) { .nav-section { background-color: #5d7794; position: relative; margin-left: 0; } }
 
-.index-down { text-align: center; position: absolute; left: 0; bottom: 40px; width: 100%; }
+.index-down { text-align: center; position: absolute; left: 0; bottom: 0px; width: 100%; }
