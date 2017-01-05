@@ -179,7 +179,9 @@ body { font-family: 'Raleway', sans-serif; overflow-x: hidden !important; width:
 
 .home-section .col-text .typed { font-size: 35px; }
 
-.home-section .col-img img { width: 100%; margin-top: 44px; }
+.home-section .col-img { height: 500px; text-align: center; }
+
+.home-section .col-img img { height: 100%; margin-top: 44px; }
 
 @media (max-width: 543px) { .home-section .col-text .welcome { margin-top: 20px; } }
 
