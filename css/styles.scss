@@ -219,7 +219,9 @@ body {
       }
       @media(max-width: 491px) {
         height: 700px;
-
+      }
+      @media(max-width: 360px) {
+        height: 900px;
       }
     }
 
@@ -288,7 +290,10 @@ body {
         height: 2250px;
       }
       @media(max-width: 491px) {
-        height:2770px;
+        height:2850px;
+      }
+      @media(max-width: 320px) {
+        height: 3450px;
       }
     }
   }
@@ -352,7 +357,9 @@ body {
       }
       @media(max-width: 491px) {
         height: 950px;
-
+      }
+      @media(max-width: 360px) {
+        height: 1100px;
       }
     }
 
@@ -376,7 +383,9 @@ body {
       }
       @media(max-width: 491px) {
         height: 1300px;
-
+      }
+      @media(max-width: 360px) {
+        height: 1600px;
       }
     }
 

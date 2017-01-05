@@ -81,6 +81,8 @@ body { font-family: 'Raleway', sans-serif; overflow-x: hidden !important; width:
 
 @media (max-width: 491px) { .team-section .container .col-member { height: 700px; } }
 
+@media (max-width: 360px) { .team-section .container .col-member { height: 900px; } }
+
 .facultyAdvisors-section { background-color: #f4f4f4; }
 
 .facultyAdvisors-section .container { background-color: #f4f4f4; color: #777; text-align: center; padding-top: 100px; }
@@ -113,7 +115,9 @@ body { font-family: 'Raleway', sans-serif; overflow-x: hidden !important; width:
 
 @media (max-width: 591px) { .facultyAdvisors-section .container .col-extended { height: 2250px; } }
 
-@media (max-width: 491px) { .facultyAdvisors-section .container .col-extended { height: 2770px; } }
+@media (max-width: 491px) { .facultyAdvisors-section .container .col-extended { height: 2850px; } }
+
+@media (max-width: 320px) { .facultyAdvisors-section .container .col-extended { height: 3450px; } }
 
 .collaborators-section .container { color: #777; text-align: center; margin-top: 120px; }
 
@@ -145,6 +149,8 @@ body { font-family: 'Raleway', sans-serif; overflow-x: hidden !important; width:
 
 @media (max-width: 491px) { .collaborators-section .container .col-extended { height: 950px; } }
 
+@media (max-width: 360px) { .collaborators-section .container .col-extended { height: 1100px; } }
+
 .collaborators-section .container .col-nsai { height: 1200px; }
 
 @media (max-width: 991px) { .collaborators-section .container .col-nsai { height: 750px; margin-bottom: 140px; } }
@@ -158,6 +164,8 @@ body { font-family: 'Raleway', sans-serif; overflow-x: hidden !important; width:
 @media (max-width: 591px) { .collaborators-section .container .col-nsai { height: 1020px; } }
 
 @media (max-width: 491px) { .collaborators-section .container .col-nsai { height: 1300px; } }
+
+@media (max-width: 360px) { .collaborators-section .container .col-nsai { height: 1600px; } }
 
 .contact-section .entry { margin: auto; height: 100px; width: 500px; }
 
