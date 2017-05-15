@@ -290,10 +290,36 @@ body {
         height: 2250px;
       }
       @media(max-width: 491px) {
-        height:2850px;
+        height:3350px;
       }
       @media(max-width: 320px) {
         height: 3450px;
+      }
+    }
+
+    .col-jesse {
+      height: 1200px;
+      @media(max-width: 991px) {
+        height:1550px;
+        margin-bottom: 10px;
+      }
+      @media(max-width: 891px) {
+        height: 1250px;
+      }
+      @media(max-width: 791px) {
+        height: 1510px;
+      }
+      @media(max-width: 691px) {
+        height: 1730px;
+      }
+      @media(max-width: 591px) {
+        height: 1550px;
+      }
+      @media(max-width: 491px) {
+        height:2250px;
+      }
+      @media(max-width: 320px) {
+        height: 2550px;
       }
     }
   }
