@@ -1,0 +1,51 @@
+.advisors-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+
+  h2 {
+    margin-bottom: 70px;
+  }
+
+  .row {
+    .left {
+      margin: auto;
+      text-align: center;
+      margin-top: 0;
+      @media (max-width: 767px) {
+        text-align: left;
+      }
+      img {
+        width: 70%;
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+        @media (max-width: 767px) {
+          width: 50%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .right {
+      margin-bottom: 100px;
+      .name {
+        font-size: 1.4rem;
+
+      }
+      .title {
+        font-size: 1.0rem;
+        margin-bottom: 15px;
+      }
+      .description {
+        font-size: .9rem;
+        width: 70%;
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+      }
+    }
+    @media (max-width: 575px) {
+      margin: 10px;
+    }
+  }
+}

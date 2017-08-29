@@ -1,6 +1,6 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"Big data can soon reach every corner of the globe to improve quality of life and make a positive impact on medicine."
+"AI and data science meets medicine in developing nations."
 );
 var iSpeed = 70; // time delay of print out
 var iIndex = 0; // start printing array at this posision
@@ -26,7 +26,7 @@ function typewriter()
   iIndex++;
   if ( iIndex != aText.length ) {
    iArrLength = aText[iIndex].length;
-   setTimeout("typewriter()", 500);
+   setTimeout("typewriter()", 600);
   }
  } else {
   setTimeout("typewriter()", iSpeed);
