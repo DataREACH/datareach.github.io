@@ -6,9 +6,13 @@ body {
   overflow-x: hidden !important;
   position: relative;
   width: 100% !important;
-
 }
 
+section {
+  .container {
+    position: relative !important;
+  }
+}
 
 
 /* ----------- home bar ------------- */
