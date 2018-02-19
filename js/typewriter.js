@@ -1,8 +1,8 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"AI and data science meets medicine in developing nations."
+"Connecting data science, molecular biology, and medicine to drive the next generation of global healthcare."
 );
-var iSpeed = 70; // time delay of print out
+var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
 var iArrLength = aText[0].length; // the length of the text array
 var iScrollAt = 20; // start scrolling up at this many lines
@@ -26,7 +26,7 @@ function typewriter()
   iIndex++;
   if ( iIndex != aText.length ) {
    iArrLength = aText[iIndex].length;
-   setTimeout("typewriter()", 600);
+   setTimeout("typewriter()", 60);
   }
  } else {
   setTimeout("typewriter()", iSpeed);
